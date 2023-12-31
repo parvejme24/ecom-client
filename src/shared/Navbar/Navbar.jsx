@@ -10,8 +10,13 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/products" className={({ isActive }) => (isActive ? "border-b" : "")}>
-          Products
+        <NavLink to="/faq" className={({ isActive }) => (isActive ? "border-b" : "")}>
+          FAQ
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/blogs" className={({ isActive }) => (isActive ? "border-b" : "")}>
+          Blogs
         </NavLink>
       </li>
     </>
