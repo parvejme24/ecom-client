@@ -5,18 +5,35 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <NavLink to="/" className={({ isActive }) => (isActive ? "border-b" : "")}>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink to="/faq" className={({ isActive }) => (isActive ? "border-b" : "")}>
+        <NavLink
+          to="/faq"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
           FAQ
         </NavLink>
       </li>
       <li>
-        <NavLink to="/blogs" className={({ isActive }) => (isActive ? "border-b" : "")}>
+        <NavLink
+          to="/blogs"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
           Blogs
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/contacts"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
+          Contacts
         </NavLink>
       </li>
     </>
@@ -62,11 +79,7 @@ const Navbar = () => {
           <div className="navbar">
             <div className="navbar-start lg:hidden">
               <div className="dropdown">
-                <div
-                  tabIndex={0}
-                  role="button"
-                  className="lg:hidden"
-                >
+                <div tabIndex={0} role="button" className="lg:hidden">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-7 w-7 text-white"
