@@ -48,7 +48,10 @@ const BlogCard = ({ blog }) => {
           </p>
         </div>
         <p className="pb-10">{blog.description[0]}</p>
-        <Link className="bg-blue-900 px-4 py-2 text-white rounded-md">
+        <Link
+          to={`${blog.blogId}`}
+          className="bg-blue-900 px-4 py-2 text-white rounded-md"
+        >
           Read More
         </Link>
       </div>
