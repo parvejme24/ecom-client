@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="container mx-auto footer p-10 bg-base-200 text-base-content">
+    <div className="bg-blue-900">
+      <footer className="text-white container mx-auto footer p-10">
         <aside>
           <svg
             width="50"
@@ -43,6 +43,11 @@ const Footer = () => {
           <a className="link link-hover">Cookie policy</a>
         </nav>
       </footer>
+      <div className="bg-blue-950">
+        <p className="text-center py-4 text-white">
+          All Copyright reserved Smart Gadget
+        </p>
+      </div>
     </div>
   );
 };
