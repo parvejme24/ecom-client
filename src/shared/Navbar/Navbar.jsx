@@ -67,8 +67,68 @@ const Navbar = () => {
               />
             </svg>
           </div>
+
           <div className="order-2 md:order-3">
-            <span>Cart</span>
+            <div className="drawer drawer-end">
+              <input
+                id="my-drawer-4"
+                type="checkbox"
+                className="drawer-toggle"
+              />
+              <div className="drawer-content">
+                {/* Page content here */}
+                <label
+                  htmlFor="my-drawer-4"
+                  className="drawer-button cursor-pointer"
+                >
+                  <span className="relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-7 h-7"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                      />
+                    </svg>
+                    <span className="absolute top-0 right-0 -mt-2 -mr-2">
+                      3
+                    </span>
+                  </span>
+                </label>
+              </div>
+              <div className="drawer-side">
+                <label
+                  htmlFor="my-drawer-4"
+                  aria-label="close sidebar"
+                  className="drawer-overlay"
+                ></label>
+                <ul className="menu space-y-2 p-4 w-80 min-h-full bg-base-200 text-base-content">
+                  {/* Sidebar content here */}
+                  <li>
+                    <Link
+                      to="/cart"
+                      className="text-center bg-blue-600 hover:bg-blue-700 py-3 text-white flex justify-center rounded-md"
+                    >
+                      View Cart
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/checkout"
+                      className="text-center bg-blue-900 hover:bg-blue-950 py-3 text-white flex justify-center rounded-md"
+                    >
+                      Checkout
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

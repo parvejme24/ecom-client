@@ -113,3 +113,42 @@ export const blogData = [
   },
   // Add more blog objects as needed
 ];
+
+export const sliderData = [
+  {
+    id: 1,
+    image:
+      "https://htmldemo.net/circleshop/circleshop/assets/images/slider/slider3-1.png",
+    title: "Smart TV LED Full HD",
+    descripiton:
+      "The most important upgrades of Xbox One S are a new controller and cross-play with PC. Just as we suspected, Xbox presentation has started with new console Xbox One S.",
+    price: "$580.00",
+  },
+  {
+    id: 1,
+    image:
+      "https://htmldemo.net/circleshop/circleshop/assets/images/slider/slider3-2.png",
+    title: "Smart TV LED Full HD",
+    descripiton:
+      "The most important upgrades of Xbox One S are a new controller and cross-play with PC. Just as we suspected, Xbox presentation has started with new console Xbox One S.",
+    price: "$580.00",
+  },
+  {
+    id: 1,
+    image:
+      "https://htmldemo.net/circleshop/circleshop/assets/images/slider/slider2-2.jpg",
+    title: "Smart TV LED Full HD",
+    descripiton:
+      "The most important upgrades of Xbox One S are a new controller and cross-play with PC. Just as we suspected, Xbox presentation has started with new console Xbox One S.",
+    price: "$580.00",
+  },
+  {
+    id: 1,
+    image:
+      "https://htmldemo.net/circleshop/circleshop/assets/images/slider/slider2-1.png",
+    title: "Smart TV LED Full HD",
+    descripiton:
+      "The most important upgrades of Xbox One S are a new controller and cross-play with PC. Just as we suspected, Xbox presentation has started with new console Xbox One S.",
+    price: "$580.00",
+  },
+];
