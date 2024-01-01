@@ -19,6 +19,7 @@ const Slider = () => {
           >
             <div className="container mx-auto">
               <div className="md:w-3/4 lg:w-1/2 space-y-3">
+                <h4 className="text-2xl font-semibold text-blue-700">{slider.subTitle && slider.subTitle}</h4>
                 <h2 className="text-4xl font-bold text-blue-900">
                   {slider.title}
                 </h2>

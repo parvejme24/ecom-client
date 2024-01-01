@@ -137,18 +137,20 @@ export const sliderData = [
     id: 1,
     image:
       "https://htmldemo.net/circleshop/circleshop/assets/images/slider/slider2-2.jpg",
-    title: "Smart TV LED Full HD",
+    subTitle: "The Hottest Trend",
+    title: "Laptop Tables Outlet",
     descripiton:
       "The most important upgrades of Xbox One S are a new controller and cross-play with PC. Just as we suspected, Xbox presentation has started with new console Xbox One S.",
-    price: "$580.00",
+    price: "$340.00",
   },
   {
     id: 1,
     image:
       "https://htmldemo.net/circleshop/circleshop/assets/images/slider/slider2-1.png",
-    title: "Smart TV LED Full HD",
+    subTitle: "The Hottest Trend",
+    title: "Cellphone Smartphone Not 2",
     descripiton:
       "The most important upgrades of Xbox One S are a new controller and cross-play with PC. Just as we suspected, Xbox presentation has started with new console Xbox One S.",
-    price: "$580.00",
+    price: "$120.00",
   },
 ];
