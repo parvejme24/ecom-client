@@ -68,6 +68,22 @@ const Navbar = () => {
           Thank You
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/searchResult"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
+          Search Result
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/privecyPolicy"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
+          Privacy Policy
+        </NavLink>
+      </li>
     </>
   );
   return (

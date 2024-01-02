@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet";
 import Slider from "../../components/Home/Slider/Slider";
 import Categories from "../../components/Home/Categories/Categories";
 import PopularProducts from "../../components/Home/PopularProducts/PopularProducts";
+import CustomerReviews from "../../components/Home/CustomerReviews/CustomerReviews";
+import SubscribeSection from "../../components/Home/Subscribe/Subscribe";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
         <Slider />
         <Categories />
         <PopularProducts />
+        <CustomerReviews />
+        <SubscribeSection />
       </div>
     </div>
   );
