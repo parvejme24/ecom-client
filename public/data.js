@@ -207,43 +207,56 @@ export const products = [
     brand: "Logitech",
   },
   {
-    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    image:
+      "https://htmldemo.net/hmart/hmart/assets/images/product-image/5.webp",
     title: "Ponno 360 Camera",
     price: 140,
     brand: "Logitech",
   },
   {
-    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    image: "https://htmldemo.net/abelo/abelo/assets/images/product-image/9.jpg",
     title: "Ponno 360 Camera",
     price: 140,
     brand: "Logitech",
   },
   {
-    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    image:
+      "https://fullkit.moxcreative.com/electrodeals/wp-content/uploads/sites/8/2022/06/4-300x300.jpg",
     title: "Ponno 360 Camera",
     price: 140,
     brand: "Logitech",
   },
   {
-    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    image:
+      "https://fullkit.moxcreative.com/electrodeals/wp-content/uploads/sites/8/2022/06/1.1-300x300.jpg",
     title: "Ponno 360 Camera",
     price: 140,
     brand: "Logitech",
   },
   {
-    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    image:
+      "https://fullkit.moxcreative.com/electrodeals/wp-content/uploads/sites/8/2022/06/9-300x300.jpg",
     title: "Ponno 360 Camera",
     price: 140,
     brand: "Logitech",
   },
   {
-    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    image:
+      "https://fullkit.moxcreative.com/clicknbuy/wp-content/uploads/sites/16/2022/09/15-300x300.jpg",
     title: "Ponno 360 Camera",
     price: 140,
     brand: "Logitech",
   },
   {
-    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    image:
+      "https://htmldemo.net/hmart/hmart/assets/images/product-image/1.webp",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+  {
+    image:
+      "https://htmldemo.net/hmart/hmart/assets/images/product-image/6.webp",
     title: "Ponno 360 Camera",
     price: 140,
     brand: "Logitech",
