@@ -14,6 +14,14 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
+          to="/products"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
+          Products
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
           to="/faq"
           className={({ isActive }) => (isActive ? "border-b" : "")}
         >

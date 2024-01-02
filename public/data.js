@@ -198,3 +198,54 @@ export const categories = [
     title: "Sound Card",
   },
 ];
+
+export const products = [
+  {
+    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+  {
+    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+  {
+    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+  {
+    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+  {
+    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+  {
+    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+  {
+    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+  {
+    image: "https://preview.hasthemes.com/ponno/img/products/p1.jpg",
+    title: "Ponno 360 Camera",
+    price: 140,
+    brand: "Logitech",
+  },
+];
