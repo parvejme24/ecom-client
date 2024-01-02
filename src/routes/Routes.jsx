@@ -10,6 +10,10 @@ import Contacts from "../pages/Contacts/Contacts";
 import Products from "../pages/Products/Products";
 import Cart from "../pages/Cart/Cart";
 import Checkout from "./../pages/Checkout/Checkout";
+import ThankYouPage from "../pages/ThankYou/ThankYou";
+import ReviewsPage from "../pages/Reviews/Reviews";
+import SearchResultPage from "../pages/SearchResult/SearchResult";
+import PrivacyPolicyPage from "../pages/PrivecyPolicy/PrivecyPolicy";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +36,22 @@ const router = createBrowserRouter([
       {
         path: "checkout",
         element: <Checkout />,
+      },
+      {
+        path: "thankyou",
+        element: <ThankYouPage />,
+      },
+      {
+        path: "reviews",
+        element: <ReviewsPage />,
+      },
+      {
+        path: "searchResult",
+        element: <SearchResultPage />,
+      },
+      {
+        path: "privecyPolicy",
+        element: <PrivacyPolicyPage />,
       },
       {
         path: "blogs",

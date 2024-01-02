@@ -60,6 +60,14 @@ const Navbar = () => {
           Checkout
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/thankyou"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
+          Thank You
+        </NavLink>
+      </li>
     </>
   );
   return (
