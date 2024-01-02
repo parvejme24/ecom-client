@@ -154,3 +154,47 @@ export const sliderData = [
     price: "$120.00",
   },
 ];
+
+import monitor from "../src/assets/category/monitor.png";
+import laptop from "../src/assets/category/laptop.png";
+import smartwatch from "../src/assets/category/smart-watch.png";
+import camera from "../src/assets/category/camera.png";
+import gpu from "../src/assets/category/gpu.png";
+import hdd from "../src/assets/category/hdd.png";
+import ssd from "../src/assets/category/ssd.png";
+import soundcard from "../src/assets/category/sound-card.png";
+
+export const categories = [
+  {
+    image: monitor,
+    title: "Monitor",
+  },
+  {
+    image: laptop,
+    title: "Laptop",
+  },
+  {
+    image: smartwatch,
+    title: "Smart Watch",
+  },
+  {
+    image: camera,
+    title: "Camera",
+  },
+  {
+    image: gpu,
+    title: "GPU",
+  },
+  {
+    image: hdd,
+    title: "HDD",
+  },
+  {
+    image: ssd,
+    title: "SSD",
+  },
+  {
+    image: soundcard,
+    title: "Sound Card",
+  },
+];
