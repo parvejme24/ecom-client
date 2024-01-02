@@ -8,6 +8,8 @@ import FAQ from "../pages/FAQ/FAQ";
 import Blogs from "../pages/Blogs/Blogs";
 import Contacts from "../pages/Contacts/Contacts";
 import Products from "../pages/Products/Products";
+import Cart from "../pages/Cart/Cart";
+import Checkout from "./../pages/Checkout/Checkout";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: "products",
         element: <Products />,
+      },
+      {
+        path: "cart",
+        element: <Cart />,
+      },
+      {
+        path: "checkout",
+        element: <Checkout />,
       },
       {
         path: "blogs",

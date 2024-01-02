@@ -44,6 +44,22 @@ const Navbar = () => {
           Contacts
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/cart"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
+          Cart
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/checkout"
+          className={({ isActive }) => (isActive ? "border-b" : "")}
+        >
+          Checkout
+        </NavLink>
+      </li>
     </>
   );
   return (
@@ -145,7 +161,7 @@ const Navbar = () => {
       <div className="bg-blue-900">
         <div className="container mx-auto">
           <div className="navbar">
-            <div className="navbar-start lg:hidden">
+            <div className="navbar-start lg:hidden z-50">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="lg:hidden">
                   <svg
