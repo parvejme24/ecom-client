@@ -1,5 +1,4 @@
 import React from "react";
-import { products } from "./../../../../public/data";
 
 const ProductCard = ({ product }) => {
   const { image, title, price, brand } = product;

@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Slider from "../../components/Home/Slider/Slider";
 import Categories from "../../components/Home/Categories/Categories";
+import PopularProducts from "../../components/Home/PopularProducts/PopularProducts";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <div>
         <Slider />
         <Categories />
+        <PopularProducts />
       </div>
     </div>
   );
